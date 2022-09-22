@@ -101,7 +101,7 @@ public class EmptyBiomeJarEntity extends Mob {
                         }
                     }
                     if (this.tickCount >= 350) {
-                        FilledBiomeJarEntity.spawnAt((ServerLevel) this.level, this.position(), this.getXRot(), biomeHolder.unwrapKey().get());
+                        FilledBiomeJarEntity.spawnAt((ServerLevel) this.level, this.position(), this.getXRot(), biomeHolder.unwrapKey().get(), true);
                         if (BiomesInJars.config.getOrDefault("convert_to_dead_land", true)) {
                             setDeadLandBiomeAt(this.blockPosition());
                             setDeadLandBiomeAt(this.blockPosition().east(16));

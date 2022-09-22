@@ -68,8 +68,7 @@ public class BiomeInAJarItem extends Item {
     }
 
     private boolean onUse(ServerLevel level, Player player, ItemStack itemStack, BlockPos blockPos) {
-        Holder<Biome> biomeHolder = level.getBiome(blockPos);
-        if (!biomeHolder.is(Biomes.DEAD_LAND) || BiomesInJars.config.getOrDefault("allow_overriding_dead_land", false)) {
+        if (!WorldUtils.chunkContainsBiome(level.registryAccess(), level.getChunk(blockPos), Biomes.DEAD_LAND) || BiomesInJars.config.getOrDefault("allow_overriding_dead_land", false)) {
             if (setChunkBiome(level, blockPos, this.biome)) {
                 itemStack.hurtAndBreak(1, player, livingEntity -> livingEntity.broadcastBreakEvent(EquipmentSlot.MAINHAND));
                 level.playSound(null, blockPos.getX(), blockPos.getY(), blockPos.getZ(), SoundEvents.ILLUSIONER_CAST_SPELL, SoundSource.PLAYERS, 1.0F, 1.0F);

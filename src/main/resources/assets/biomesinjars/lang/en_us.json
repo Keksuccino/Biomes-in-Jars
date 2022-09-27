@@ -1,0 +1,15 @@
+{
+  "item.biomesinjars.world_in_a_jar": " in a Jar",
+  "item.biomesinjars.world_in_a_jar.tooltip.line_1": "§6This jar seems to hold a compressed",
+  "item.biomesinjars.world_in_a_jar.tooltip.line_2": "§6world fragment.",
+  "item.biomesinjars.world_in_a_jar.tooltip.line_3": "§6It is vibrating in your hand.",
+  "item.biomesinjars.world_in_a_jar.tooltip.line_4": "",
+  "item.biomesinjars.world_in_a_jar.tooltip.line_5": "§6Maybe you can get it out there somehow?",
+  "biome.biomesinjars.dead_land": "Dead Land",
+  "item.biomesinjars.empty_biome_jar": "Empty Biome Jar",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_1": "§6This little jar is surrounded",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_2": "§6by a strong aura. You get",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_3": "§6goosebumps from looking at it.",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_4": "§6Holding it close to the ground",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_5": "§6makes it vibrate."
+}

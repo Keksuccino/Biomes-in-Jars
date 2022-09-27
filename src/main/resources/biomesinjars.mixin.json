@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "de.keksuccino.biomesinjars.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "both.IMixinChunkMap",
+    "both.MixinMinecraftServer",
+    "both.MixinPlayerList"
+  ],
+  "client": [
+    "client.MixinItemRenderer",
+    "client.MixinModelBakery"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "biomesinjars.mixin-refmap.json",
+  "plugin": "de.keksuccino.biomesinjars.mixin.BiomesInJarsMixinPlugin",
+  "minVersion": "0.8"
+}

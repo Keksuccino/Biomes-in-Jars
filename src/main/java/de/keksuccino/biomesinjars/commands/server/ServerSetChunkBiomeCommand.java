@@ -5,7 +5,6 @@ import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.exceptions.DynamicCommandExceptionType;
 import de.keksuccino.biomesinjars.mixin.both.IMixinChunkMap;
-import de.keksuccino.biomesinjars.mixin.both.IMixinCommandSourceStack;
 import de.keksuccino.biomesinjars.util.WorldUtils;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
@@ -24,7 +23,7 @@ public class ServerSetChunkBiomeCommand {
 
         d.register(Commands.literal("setchunkbiome")
                         .requires((stack) -> {
-                            return (((IMixinCommandSourceStack)stack).getPermissionLevelBiomesInJars() >= 2);
+                            return (stack.permissionLevel >= 2);
                         })
                 .then(Commands.argument("biome", ResourceKeyArgument.key(Registry.BIOME_REGISTRY))
                                 .executes((context -> {

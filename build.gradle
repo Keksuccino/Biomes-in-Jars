@@ -61,7 +61,7 @@ jar {
 	from("LICENSE") {
 		rename { "${it}_${project.archivesBaseName}"}
 	}
-	rename 'biomesinjars-refmap.json', 'biomesinjars.mixin-refmap.json'
+	rename 'biomes_in_jars-refmap.json', 'biomesinjars.mixin-refmap.json'
 }
 
 // configure the maven publication

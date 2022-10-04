@@ -1,0 +1,52 @@
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml" #mandatory
+# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+# The mod license
+license="DSMSL (DON'T SNATCH MA STUFF LICENSE)"
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+# The modid of the mod
+modId="biomesinjars" #mandatory
+# The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
+version="1.1.0" #mandatory
+ # A display name for the mod
+displayName="Biomes in Jars" #mandatory
+# A text field displayed in the mod UI
+authors="Keksuccino" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+So many jars!
+
+Biomes in Jars © Copyright 2022 Keksuccino.
+Biomes in Jars is licensed under DSMSL (DON'T SNATCH MA STUFF LICENSE).
+See the mod's GitHub for more information about this license.
+'''
+
+[[dependencies.biomesinjars]]
+modId="konkrete"
+mandatory=true
+ordering="NONE"
+versionRange="[1.5.1,)"
+side="BOTH"
+
+[[dependencies.biomesinjars]]
+modId="forge"
+mandatory=true
+versionRange="[40.0.2,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.biomesinjars]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.biomesinjars]]
+modId="geckolib3"
+mandatory=true
+versionRange="[3.0.39,)"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,102 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.biome_jar.down": {
+			"animation_length": 2.5,
+			"bones": {
+				"jar": {
+					"position": {
+						"0.0": {
+							"vector": [0, 10, 0],
+							"easing": "linear"
+						},
+						"2.5": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"animation.biome_jar.vibrate": {
+			"loop": true,
+			"animation_length": 0.16,
+			"bones": {
+				"jar": {
+					"position": {
+						"0.0": {
+							"vector": [-1, 10, 0]
+						},
+						"0.02": {
+							"vector": [0, 10, 0]
+						},
+						"0.04": {
+							"vector": [1, 11, 0]
+						},
+						"0.06": {
+							"vector": [0, 11, 0]
+						},
+						"0.08": {
+							"vector": [0, 10, -1]
+						},
+						"0.1": {
+							"vector": [0, 10, 0]
+						},
+						"0.12": {
+							"vector": [0, 11, 1]
+						},
+						"0.14": {
+							"vector": [0, 11, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.biome_jar.rotate": {
+			"loop": true,
+			"animation_length": 8,
+			"bones": {
+				"jar": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, 90, 0]
+						},
+						"4.0": {
+							"vector": [0, 180, 0]
+						},
+						"6.0": {
+							"vector": [0, 270, 0]
+						},
+						"8.0": {
+							"vector": [0, 357.5, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.biome_jar.hover": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"jar": {
+					"position": {
+						"0.0": {
+							"vector": [0, 10, 0]
+						},
+						"1.0": {
+							"vector": [0, 11, 0],
+							"easing": "linear"
+						},
+						"2.0": {
+							"vector": [0, 10, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

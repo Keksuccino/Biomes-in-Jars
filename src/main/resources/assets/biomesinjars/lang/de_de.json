@@ -1,0 +1,17 @@
+{
+  "item.biomesinjars.filled_biome_jar.generic": "Biom in einem Glas",
+  "item.biomesinjars.filled_biome_jar": "%s in einem Glas",
+  "item.biomesinjars.filled_biome_jar.tooltip.line_1": "§6Dieses Glas scheint ein komprimiertes",
+  "item.biomesinjars.filled_biome_jar.tooltip.line_2": "§6Weltfragment zu enthalten.",
+  "item.biomesinjars.filled_biome_jar.tooltip.line_3": "§6Es vibriert in deiner Hand.",
+  "item.biomesinjars.filled_biome_jar.tooltip.line_4": "",
+  "item.biomesinjars.filled_biome_jar.tooltip.line_5": "§6Ob man es dort irgendwie rausbekommen kann?",
+  "biome.biomesinjars.dead_land": "Totes Land",
+  "item.biomesinjars.empty_biome_jar": "Leeres Biom Glas",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_1": "§6Dieses kleine Glas ist von einer",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_2": "§6starken Aura umgeben. Du bekommst",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_3": "§6Gänsehaut, wenn du es ansiehst.",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_4": "§6Wenn man es in Bodennähe hält,",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_5": "§6beginnt es, zu vibrieren.",
+  "biomesinjars.command.biomejar.unable_to_give": "§cKeine leeren Inventar Slots!"
+}

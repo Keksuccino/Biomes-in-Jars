@@ -23,4 +23,4 @@ See `LICENSE.md` for more information.
 
 ## Copyright
 
-- Biomes in Jars Copyright © 2022 Keksuccino.<br>
+- Biomes in Jars Copyright © 2022-2023 Keksuccino.<br>

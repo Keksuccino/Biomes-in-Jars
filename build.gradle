@@ -34,6 +34,9 @@ dependencies {
 }
 
 loom {
+	mixin {
+		defaultRefmapName = 'biomesinjars.mixin-refmap.json'
+	}
 	accessWidenerPath = file("src/main/resources/biomesinjars.accessWidener")
 }
 
@@ -61,7 +64,6 @@ jar {
 	from("LICENSE") {
 		rename { "${it}_${project.archivesBaseName}"}
 	}
-	rename 'biomes_in_jars-refmap.json', 'biomesinjars.mixin-refmap.json'
 }
 
 // configure the maven publication

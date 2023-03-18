@@ -12,5 +12,6 @@
   "item.biomesinjars.empty_biome_jar.tooltip.line_3": "§6goosebumps from looking at it.",
   "item.biomesinjars.empty_biome_jar.tooltip.line_4": "§6Holding it close to the ground",
   "item.biomesinjars.empty_biome_jar.tooltip.line_5": "§6makes it vibrate.",
-  "entity.biomesinjars.empty_biome_jar": "Empty Biome Jar"
+  "entity.biomesinjars.empty_biome_jar": "Empty Biome Jar",
+  "entity.biomesinjars.filled_biome_jar": "Filled Biome Jar"
 }

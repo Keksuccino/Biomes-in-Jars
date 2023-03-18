@@ -11,5 +11,6 @@
   "item.biomesinjars.empty_biome_jar.tooltip.line_2": "§6by a strong aura. You get",
   "item.biomesinjars.empty_biome_jar.tooltip.line_3": "§6goosebumps from looking at it.",
   "item.biomesinjars.empty_biome_jar.tooltip.line_4": "§6Holding it close to the ground",
-  "item.biomesinjars.empty_biome_jar.tooltip.line_5": "§6makes it vibrate."
+  "item.biomesinjars.empty_biome_jar.tooltip.line_5": "§6makes it vibrate.",
+  "entity.biomesinjars.empty_biome_jar": "Empty Biome Jar"
 }

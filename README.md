@@ -1,9 +1,4 @@
-<p style="text-align: center;">
-<a href="https://discord.gg/rhayah27GC"><img src="https://discordapp.com/api/guilds/704163135787106365/widget.png?style=banner2" /></a> 
-<a href="https://twitter.com/keksuccino"><img src="https://user-images.githubusercontent.com/35544624/132924153-df28357d-6816-48a2-96a8-594333d3b075.png" /></a> 
-<a href="https://www.patreon.com/keksuccino"><img src="https://user-images.githubusercontent.com/35544624/132924155-25fe4269-5936-4cac-88cf-5d6069e0443a.png" /></a> 
-<a href="https://paypal.me/TimSchroeter"><img src="https://user-images.githubusercontent.com/35544624/132924156-ec4300ea-7e10-40de-a271-8effb8fbf5cf.png" /></a>
-</p>
+<a href="https://discord.gg/rhayah27GC"><img src="https://img.shields.io/discord/704163135787106365?style=flat&label=Discord&labelColor=%234260f5&color=%2382aeff" /></a> <a href="https://paypal.me/TimSchroeter"><img src="https://img.shields.io/badge/Donate%20via%20PayPal-%233d91ff?style=flat" /></a> <a href="https://www.patreon.com/keksuccino"><img src="https://img.shields.io/badge/Support%20me%20on%20Patreon-%23ff9b3d?style=flat" /></a>
 
 ## About
 
